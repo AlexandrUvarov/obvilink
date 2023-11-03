@@ -308,7 +308,7 @@ template {
 }
 
 :root {
-  --main-color: #131313;
+  --main-color: darkgray;
 }
 
 body {
