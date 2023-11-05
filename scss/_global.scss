@@ -12,6 +12,7 @@ img {
 .center {
     padding-left: calc(50vw - 125px);
     padding-right: calc(50vw - 125px);
+    
     @media screen and (min-width: 767px) {
         padding-left: calc(50vw - 360px);
         padding-right: calc(50vw - 360px); 
