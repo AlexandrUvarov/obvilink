@@ -308,14 +308,13 @@ template {
 }
 
 :root {
-  --main-color: darkgray;
+  --main-color: #131313;
 }
 
 body {
   font-family: "Source Sans 3";
   font-weight: 300;
   color: var(--main-color);
-  background: var(--main-color);
 }
 
 .center {
