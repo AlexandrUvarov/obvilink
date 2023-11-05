@@ -1,7 +1,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
+    
     padding-top: 20px;
     padding-bottom: 20px;
     background: orange;
@@ -11,4 +12,10 @@
 .logo {
     display: block;
     z-index: 2;
+    @media screen and (min-width:767px) {
+        img {
+            width: 157px;
+        }
+        
+    }
 }
