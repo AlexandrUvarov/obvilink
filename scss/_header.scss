@@ -16,6 +16,11 @@
         img {
             width: 157px;
         }
-        
     }
+    @media screen and (min-width:1200px) {
+        img {
+            width: 250px;
+        }
+    }
+
 }

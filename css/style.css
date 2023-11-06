@@ -458,6 +458,7 @@ img {
     background: none;
     position: static;
     padding: 0;
+    width: auto;
   }
 }
 
@@ -489,6 +490,11 @@ input#show_menu:checked ~ .nav {
 @media screen and (min-width: 767px) {
   .logo img {
     width: 157px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo img {
+    width: 250px;
   }
 }
 
